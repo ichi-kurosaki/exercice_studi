@@ -1,0 +1,119 @@
+main {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.adress p,
+.contact h2,
+h3 {
+  margin: 20px;
+}
+
+.adress p {
+  padding-bottom: 20px;
+  border-bottom: solid 1px white;
+}
+
+img,
+.contact {
+  width: 50%;
+}
+
+.radio {
+  display: flex;
+  gap: 30px;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  padding-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+* .formulaire {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+textarea,
+.information input,
+.bouton {
+  border-radius: 5px;
+  border: none;
+}
+
+.information input {
+  width: 100%;
+  height: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+}
+
+.nom_prenom,
+.email_tel {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.nom_prenom div,
+.email_tel div {
+  width: 50%;
+  padding-top: 10px;
+}
+
+.bouton {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  user-select: none;
+  margin: auto;
+  margin-top: 10px;
+}
+.bouton:hover {
+  background-color: rgb(215, 215, 214);
+}
+
+@media all and (max-width: 1000px) {
+  .adress p,
+  h2,
+  h3,
+  textarea {
+    border: none;
+    text-align: center;
+  }
+  img,
+  .contact {
+    width: 70%;
+  }
+  .nom_prenom,
+  .email_tel,
+  .radio {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .nom_prenom div,
+  .email_tel div {
+    width: 100%;
+  }
+  .formulaire {
+    margin: auto;
+  }
+  form {
+    margin-left: 0px;
+  }
+}

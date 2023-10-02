@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  margin: 30px;
+  gap: 50px;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 50%;
+}

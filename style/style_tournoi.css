@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+.image_tournoi {
+  width: 40%;
+  margin: auto;
+}
+main {
+  text-align: center;
+}
+.inscription {
+  color: rgb(104, 13, 190);
+}
+#galerie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: auto;
+  justify-content: center;
+  margin: 50px;
+}
+img {
+  width: 30%;
+}
+
+@media all and (max-width: 1000px) {
+  #galerie {
+    display: none;
+  }
+  p,
+  h2,
+  h1,
+  img {
+    margin: 30px;
+  }
+}
