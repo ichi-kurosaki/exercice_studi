@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style/style_contact.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Boxing Club</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"
+        ><img src="image/3886.jpg" title="logo" alt="logo" class="logo"
+      /></a>
+      <p>Boxing Club, un club de boxe, un vrai!</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="tarifs.html">Tarifs</a></li>
+        <li class="active">Contact</li>
+        <li><a href="tournoi.html">Tournoi</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <img src="image/image (3).jpg" />
+      <div class="contact">
+        <h2>Contactez notre club</h2>
+        <div class="adress">
+          <p>Adresse : 151 rue de Rocky, 75254 Balboa</p>
+          <p>Téléphone : 00541236547</p>
+        </div>
+        <h3>Envoyer un message</h3>
+        <div class="formulaire">
+          <form method="post" action="">
+            <div class="radio">
+              <div>
+                <input type="radio" name="sexe" id="femme" />
+                <label for=" femme">Femme</label>
+              </div>
+
+              <div>
+                <input type="radio" name="sexe" id="homme" />
+                <label for=" homme">Homme</label>
+              </div>
+            </div>
+            <div class="information">
+              <div class="nom_prenom">
+                <div>
+                  <label for="nom"></label>
+                  <input type="text" id="nom" placeholder="Nom" />
+                </div>
+                <div>
+                  <label for="prenom"></label>
+                  <input type="text" id="prenom" placeholder="Prénom" />
+                </div>
+              </div>
+              <div class="email_tel">
+                <div>
+                  <label for="email"></label>
+                  <input type="email" id="email" placeholder="Email" required />
+                </div>
+                <div>
+                  <label for="telephone"></label>
+                  <input type="tel" id="telephone" placeholder="Téléphone" />
+                </div>
+              </div>
+            </div>
+
+            <label for="mess"></label>
+            <textarea
+              type="text"
+              rows="10"
+              id="mess"
+              placeholder="Message"
+              required
+            ></textarea>
+
+            <input type="button" value="Envoyer" class="bouton" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a target="_blank" href="https://www.instagram.com/"
+        ><img
+          src="image/Instagram-Pink-Logo-PNG.png"
+          alt="instagram"
+          title="instagram"
+          class="insta"
+      /></a>
+      <a target="_blank" href="https://www.twitter.com"
+        ><img
+          src="image/Twitter-X-White-Logo-PNG.png"
+          alt="twitter"
+          title="twitter"
+          class="twitter"
+      /></a>
+    </footer>
+  </body>
+</html>
